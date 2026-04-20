@@ -19,4 +19,7 @@ target "zig" {
     "linux/arm64",
     "linux/arm/v7"
   ]
+  annotations = [
+    "manifest:org.opencontainers.image.description=Zig toolchain"
+  ]
 }
